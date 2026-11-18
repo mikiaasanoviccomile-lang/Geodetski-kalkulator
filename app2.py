@@ -587,7 +587,7 @@ if akt_u:
 else:
     centar_lat, centar_lon = 44.7866, 20.4489
 
-m = folium.Map(location=[centar_lat, centar_lon], zoom_start=13, tiles="OpenStreetMap")
+m = folium.Map(location=[centar_lat, centar_lon], zoom_start=13, tiles="OpenStreetMap", attribution_control=False)
 
 folium.TileLayer(
     tiles="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
